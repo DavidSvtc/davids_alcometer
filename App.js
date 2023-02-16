@@ -99,9 +99,9 @@ export default function App() {
       <Text style={myStyle.smallheadline}>Weight</Text>
       <TextInput
         style={myStyle.input}
-        placeholder="Your Weight"
+        label="Your Weight"
         keyboardType="number-pad"
-
+        mode="flat"
         onChangeText={(w) => setWeight(w)}
       />
 
