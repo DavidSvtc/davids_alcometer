@@ -105,7 +105,7 @@ export default function App() {
         onChangeText={(w) => setWeight(w)}
       />
 
-      <Text style={myStyle.smallheadline}> Bottles </Text>
+      <Text style={myStyle.smallheadline}>Bottles</Text>
       <NumericInput
         style={myStyle.numInp}
         value={bottles}
@@ -139,7 +139,7 @@ export default function App() {
         borderColor={myStyle.numInp.buttoncolor}
       />
 
-      <Text style={myStyle.smallheadline}> Your Gender: </Text>
+      <Text style={myStyle.smallheadline}>Your Gender: </Text>
       <RadioButton.Group
         onValueChange={(newGender) => setGender(newGender)}
         value={gender}
